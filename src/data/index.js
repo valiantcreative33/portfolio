@@ -15,14 +15,14 @@ export const NavLinks = [
         name: "Home 01",
         url: "/",
       },
-      {
-        name: "Home 02",
-        url: "/index-2",
-      },
-      {
-        name: "Home 03",
-        url: "/index-3",
-      },
+      // {
+      //   name: "Home 02",
+      //   url: "/index-2",
+      // },
+      // {
+      //   name: "Home 03",
+      //   url: "/index-3",
+      // },
     ],
   },
   {
@@ -33,10 +33,10 @@ export const NavLinks = [
     name: "Services",
     url: "/service",
     subItems: [
-      {
-        name: "Services",
-        url: "/service",
-      },
+      // {
+      //   name: "Services",
+      //   url: "/service",
+      // },
       {
         name: "Service Details",
         url: "/service-details",
@@ -47,10 +47,10 @@ export const NavLinks = [
     name: "Portfolio",
     url: "/portfolio",
     subItems: [
-      {
-        name: "Portfolio 01",
-        url: "/portfolio",
-      },
+      // {
+      //   name: "Portfolio 01",
+      //   url: "/portfolio",
+      // },
       {
         name: "Portfolio Details",
         url: "/portfolio-details",
@@ -61,18 +61,18 @@ export const NavLinks = [
     name: "Blog",
     url: "/blog",
     subItems: [
-      {
-        name: "Blog 01",
-        url: "/blog",
-      },
-      {
-        name: "Blog 02",
-        url: "/blog-2",
-      },
-      {
-        name: "Blog 03",
-        url: "/blog-3",
-      },
+      // {
+      //   name: "Blog 01",
+      //   url: "/blog",
+      // },
+      // {
+      //   name: "Blog 02",
+      //   url: "/blog-2",
+      // },
+      // {
+      //   name: "Blog 03",
+      //   url: "/blog-3",
+      // },
       {
         name: "Blog Details",
         url: "/blog-single",
@@ -91,33 +91,33 @@ import sliderOne02 from "@/images/slider/1_2.jpg";
 export const SliderOneData = [
   {
     image: sliderOne01,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "SMART WEB \n DESIGN AGENCY.",
+    subTitle: "WELCOME TO VALIANT CREATIVE",
+    title: "PORTFOLIO OF RUBEN MATAMOROS.",
     button: {
       label: "DISCOVER MORE",
       url: "/about",
     },
   },
-  {
-    image: sliderOne02,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "SMART WEB \n DESIGN AGENCY.",
-    button: {
-      label: "DISCOVER MORE",
-      url: "/about",
-    },
-  },
+  // {
+  //   image: sliderOne02,
+  //   subTitle: "WELCOME TO VALIANT CREATIVE",
+  //   title: "PORTFOLIO OF RUBEN MATAMOROS.",
+  //   button: {
+  //     label: "DISCOVER MORE",
+  //     url: "/about",
+  //   },
+  // },
 ];
 
 import sliderTwo01 from "@/images/slider/2_1.jpg";
 import sliderTwo02 from "@/images/slider/2_2.jpg";
-import sliderTwo03 from "@/images/slider/2_3.jpg";
+// import sliderTwo03 from "@/images/slider/2_3.jpg";
 
 export const SliderTwoData = [
   {
     image: sliderTwo01,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "DIGITAL\nMARKETING\nAGENCY.",
+    subTitle: "WELCOME TO VALIANT CREATIVE",
+    title: "PORTFOLIO OF RUBEN MATAMOROS.",
     button: {
       label: "DISCOVER MORE",
       url: "/about",
@@ -125,46 +125,46 @@ export const SliderTwoData = [
   },
   {
     image: sliderTwo02,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "DIGITAL\nMARKETING\nAGENCY.",
+    subTitle: "WELCOME TO VALIANT CREATIVE",
+    title: "PORTFOLIO OF RUBEN MATAMOROS.",
     button: {
       label: "DISCOVER MORE",
       url: "/about",
     },
   },
-  {
-    image: sliderTwo03,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "DIGITAL\nMARKETING\nAGENCY.",
-    button: {
-      label: "DISCOVER MORE",
-      url: "/about",
-    },
-  },
-];
+  //   {
+  //     image: sliderTwo03,
+  //     subTitle: "WELCOME TO VALIANT CREATIVE",
+  //     title: "PORTFOLIO OF RUBEN MATAMOROS.",
+  //     button: {
+  //       label: "DISCOVER MORE",
+  //       url: "/about",
+  //     },
+  //   },
+  // ];
 
-import sliderThree01 from "@/images/slider/3_1.jpg";
-import sliderThree02 from "@/images/slider/3_2.jpg";
+  // import sliderThree01 from "@/images/slider/3_1.jpg";
+  // import sliderThree02 from "@/images/slider/3_2.jpg";
 
-export const SliderThreeData = [
-  {
-    image: sliderThree01,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "SMART WEB\n DESIGN AGENCY.",
-    button: {
-      label: "DISCOVER MORE",
-      url: "/about",
-    },
-  },
-  {
-    image: sliderThree02,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "SMART WEB\n DESIGN AGENCY.",
-    button: {
-      label: "DISCOVER MORE",
-      url: "/about",
-    },
-  },
+  // export const SliderThreeData = [
+  //   {
+  //     image: sliderThree01,
+  //     subTitle: "WELCOME TO MEIPALY AGENCY",
+  //     title: "SMART WEB\n DESIGN AGENCY.",
+  //     button: {
+  //       label: "DISCOVER MORE",
+  //       url: "/about",
+  //     },
+  //   },
+  //   {
+  //     image: sliderThree02,
+  //     subTitle: "WELCOME TO MEIPALY AGENCY",
+  //     title: "SMART WEB\n DESIGN AGENCY.",
+  //     button: {
+  //       label: "DISCOVER MORE",
+  //       url: "/about",
+  //     },
+  //   },
 ];
 
 export const ContactInfosBlock = {
@@ -176,16 +176,16 @@ export const ContactInfosBlock = {
 
 export const ContactInfosList = [
   {
-    title: "austin",
+    title: "tampa",
     infos: [
       {
-        name: "22 Texas West Hills",
+        name: "22 Florida East Hills",
       },
       {
-        name: "needhelp@meipaly.com",
+        name: "ruben@valiantcreative.net",
       },
       {
-        name: "666 888 000",
+        name: "777 888 3333",
       },
     ],
   },
@@ -199,7 +199,7 @@ export const ContactInfosList = [
         name: "needhelp@meipaly.com",
       },
       {
-        name: "666 888 000",
+        name: "777 888 3333",
       },
     ],
   },
@@ -213,7 +213,7 @@ export const ContactInfosList = [
         name: "needhelp@meipaly.com",
       },
       {
-        name: "666 888 000",
+        name: "333 888 7777",
       },
     ],
   },
@@ -227,7 +227,7 @@ export const ContactInfosList = [
         name: "needhelp@meipaly.com",
       },
       {
-        name: "666 888 000",
+        name: "333 888 7777",
       },
     ],
   },
