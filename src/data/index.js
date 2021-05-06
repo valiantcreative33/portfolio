@@ -1,6 +1,81 @@
 import logoLight from "@/images/logo.png";
 import logoDark from "@/images/logo2.png";
 
+import sliderOne01 from "@/images/slider/1_1.jpg";
+import sliderOne02 from "@/images/slider/1_2.jpg";
+
+import sliderTwo01 from "@/images/slider/2_1.jpg";
+import sliderTwo02 from "@/images/slider/2_2.jpg";
+import sliderTwo03 from "@/images/slider/2_3.jpg";
+
+import sliderThree01 from "@/images/slider/3_1.jpg";
+import sliderThree02 from "@/images/slider/3_2.jpg";
+
+import blogImage1 from "@/images/blog/1.jpg";
+import blogImage2 from "@/images/blog/2.jpg";
+import blogImage3 from "@/images/blog/3.jpg";
+import blogImage4 from "@/images/blog/4.jpg";
+import blogImage5 from "@/images/blog/5.jpg";
+import blogImage6 from "@/images/blog/6.jpg";
+
+import blogImageTwo1 from "@/images/blog/14.jpg";
+import blogImageTwo2 from "@/images/blog/15.jpg";
+
+import blogS1 from "@/images/blog/11.jpg";
+import blogS2 from "@/images/blog/12.jpg";
+import blogS3 from "@/images/blog/13.jpg";
+
+import commentImage1 from "@/images/blog/9.jpg";
+import commentImage2 from "@/images/blog/10.jpg";
+
+import featureTab01 from "@/images/home_1/c1.jpg";
+import featureTab02 from "@/images/home_1/c2.jpg";
+import featureTab03 from "@/images/home_1/c3.jpg";
+
+import portfolio01 from "@/images/portfolio/1.jpg";
+import portfolio02 from "@/images/portfolio/2.jpg";
+import portfolio03 from "@/images/portfolio/3.jpg";
+import portfolio04 from "@/images/portfolio/4.jpg";
+import portfolio05 from "@/images/portfolio/5.jpg";
+import portfolio06 from "@/images/portfolio/6.jpg";
+
+import portfolioD01 from "@/images/portfolio/7.jpg";
+import portfolioD02 from "@/images/portfolio/8.jpg";
+
+import serviceOne01 from "@/images/home_1/6.jpg";
+import serviceOne02 from "@/images/home_1/7.jpg";
+import serviceOne03 from "@/images/home_1/8.jpg";
+
+import trustClient01 from "@/images/home_1/4.jpg";
+
+import ClientCarousel01 from "@/images/client/1.png";
+import ClientCarousel02 from "@/images/client/2.png";
+import ClientCarousel03 from "@/images/client/3.png";
+import ClientCarousel04 from "@/images/client/4.png";
+import ClientCarousel05 from "@/images/client/5.png";
+
+import aboutOne01 from "@/images/about/1.jpg";
+import aboutOne02 from "@/images/about/2.jpg";
+
+import team01 from "@/images/team/1.jpg";
+import team02 from "@/images/team/2.jpg";
+import team03 from "@/images/team/3.jpg";
+import team04 from "@/images/team/4.jpg";
+import team05 from "@/images/team/5.jpg";
+
+import video01 from "@/images/about/3.jpg";
+
+import testimonial01 from "@/images/home_1/t1.jpg";
+import testimonial02 from "@/images/home_1/t2.jpg";
+import testimonial03 from "@/images/home_1/t3.jpg";
+
+import video02 from "@/images/home_1/3.jpg";
+
+import aboutTwo01 from "@/images/home_1/2.jpg";
+import aboutTwo02 from "@/images/home_1/1.jpg";
+
+import featureTwo01 from "@/images/home_1/5.jpg";
+
 export const LogoImage = {
   light: logoLight,
   dark: logoDark,
@@ -15,14 +90,14 @@ export const NavLinks = [
         name: "Home 01",
         url: "/",
       },
-      // {
-      //   name: "Home 02",
-      //   url: "/index-2",
-      // },
-      // {
-      //   name: "Home 03",
-      //   url: "/index-3",
-      // },
+      {
+        name: "Home 02",
+        url: "/index-2",
+      },
+      {
+        name: "Home 03",
+        url: "/index-3",
+      },
     ],
   },
   {
@@ -33,10 +108,10 @@ export const NavLinks = [
     name: "Services",
     url: "/service",
     subItems: [
-      // {
-      //   name: "Services",
-      //   url: "/service",
-      // },
+      {
+        name: "Services",
+        url: "/service",
+      },
       {
         name: "Service Details",
         url: "/service-details",
@@ -47,10 +122,10 @@ export const NavLinks = [
     name: "Portfolio",
     url: "/portfolio",
     subItems: [
-      // {
-      //   name: "Portfolio 01",
-      //   url: "/portfolio",
-      // },
+      {
+        name: "Portfolio 01",
+        url: "/portfolio",
+      },
       {
         name: "Portfolio Details",
         url: "/portfolio-details",
@@ -61,18 +136,18 @@ export const NavLinks = [
     name: "Blog",
     url: "/blog",
     subItems: [
-      // {
-      //   name: "Blog 01",
-      //   url: "/blog",
-      // },
-      // {
-      //   name: "Blog 02",
-      //   url: "/blog-2",
-      // },
-      // {
-      //   name: "Blog 03",
-      //   url: "/blog-3",
-      // },
+      {
+        name: "Blog 01",
+        url: "/blog",
+      },
+      {
+        name: "Blog 02",
+        url: "/blog-2",
+      },
+      {
+        name: "Blog 03",
+        url: "/blog-3",
+      },
       {
         name: "Blog Details",
         url: "/blog-single",
@@ -85,9 +160,6 @@ export const NavLinks = [
   },
 ];
 
-import sliderOne01 from "@/images/slider/1_1.jpg";
-import sliderOne02 from "@/images/slider/1_2.jpg";
-
 export const SliderOneData = [
   {
     image: sliderOne01,
@@ -98,20 +170,16 @@ export const SliderOneData = [
       url: "/about",
     },
   },
-  // {
-  //   image: sliderOne02,
-  //   subTitle: "WELCOME TO VALIANT CREATIVE",
-  //   title: "PORTFOLIO OF RUBEN MATAMOROS.",
-  //   button: {
-  //     label: "DISCOVER MORE",
-  //     url: "/about",
-  //   },
-  // },
+  {
+    image: sliderOne02,
+    subTitle: "WELCOME TO VALIANT CREATIVE",
+    title: "PORTFOLIO OF RUBEN MATAMOROS.",
+    button: {
+      label: "DISCOVER MORE",
+      url: "/about",
+    },
+  },
 ];
-
-import sliderTwo01 from "@/images/slider/2_1.jpg";
-import sliderTwo02 from "@/images/slider/2_2.jpg";
-// import sliderTwo03 from "@/images/slider/2_3.jpg";
 
 export const SliderTwoData = [
   {
@@ -132,39 +200,36 @@ export const SliderTwoData = [
       url: "/about",
     },
   },
-  //   {
-  //     image: sliderTwo03,
-  //     subTitle: "WELCOME TO VALIANT CREATIVE",
-  //     title: "PORTFOLIO OF RUBEN MATAMOROS.",
-  //     button: {
-  //       label: "DISCOVER MORE",
-  //       url: "/about",
-  //     },
-  //   },
-  // ];
+    {
+      image: sliderTwo03,
+      subTitle: "WELCOME TO VALIANT CREATIVE",
+      title: "PORTFOLIO OF RUBEN MATAMOROS.",
+      button: {
+        label: "DISCOVER MORE",
+        url: "/about",
+      },
+    },
+  ];
 
-  // import sliderThree01 from "@/images/slider/3_1.jpg";
-  // import sliderThree02 from "@/images/slider/3_2.jpg";
-
-  // export const SliderThreeData = [
-  //   {
-  //     image: sliderThree01,
-  //     subTitle: "WELCOME TO MEIPALY AGENCY",
-  //     title: "SMART WEB\n DESIGN AGENCY.",
-  //     button: {
-  //       label: "DISCOVER MORE",
-  //       url: "/about",
-  //     },
-  //   },
-  //   {
-  //     image: sliderThree02,
-  //     subTitle: "WELCOME TO MEIPALY AGENCY",
-  //     title: "SMART WEB\n DESIGN AGENCY.",
-  //     button: {
-  //       label: "DISCOVER MORE",
-  //       url: "/about",
-  //     },
-  //   },
+  export const SliderThreeData = [
+    {
+      image: sliderThree01,
+      subTitle: "WELCOME TO MEIPALY AGENCY",
+      title: "SMART WEB\n DESIGN AGENCY.",
+      button: {
+        label: "DISCOVER MORE",
+        url: "/about",
+      },
+    },
+    {
+      image: sliderThree02,
+      subTitle: "WELCOME TO MEIPALY AGENCY",
+      title: "SMART WEB\n DESIGN AGENCY.",
+      button: {
+        label: "DISCOVER MORE",
+        url: "/about",
+      },
+    },
 ];
 
 export const ContactInfosBlock = {
@@ -240,13 +305,6 @@ export const ContactFormTitle = {
     "We are committed to providing our customers with exceptional service while \n      offering our employees the best training. ",
 };
 
-import blogImage1 from "@/images/blog/1.jpg";
-import blogImage2 from "@/images/blog/2.jpg";
-import blogImage3 from "@/images/blog/3.jpg";
-import blogImage4 from "@/images/blog/4.jpg";
-import blogImage5 from "@/images/blog/5.jpg";
-import blogImage6 from "@/images/blog/6.jpg";
-
 export const BlogData = [
   {
     title: "basic rules of running web agency business",
@@ -285,9 +343,6 @@ export const BlogData = [
     image: blogImage6,
   },
 ];
-
-import blogImageTwo1 from "@/images/blog/14.jpg";
-import blogImageTwo2 from "@/images/blog/15.jpg";
 
 export const BlogTwoData = [
   {
@@ -343,10 +398,6 @@ export const BlogHomeSection = {
     "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
 };
 
-import blogS1 from "@/images/blog/11.jpg";
-import blogS2 from "@/images/blog/12.jpg";
-import blogS3 from "@/images/blog/13.jpg";
-
 export const BlogSidebarPost = [
   {
     title: "basic rules of running web agency",
@@ -365,9 +416,6 @@ export const BlogSidebarPost = [
   },
 ];
 
-import commentImage1 from "@/images/blog/9.jpg";
-import commentImage2 from "@/images/blog/10.jpg";
-
 export const BlogComments = [
   {
     image: commentImage1,
@@ -384,13 +432,6 @@ export const BlogComments = [
       "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet.",
   },
 ];
-
-import portfolio01 from "@/images/portfolio/1.jpg";
-import portfolio02 from "@/images/portfolio/2.jpg";
-import portfolio03 from "@/images/portfolio/3.jpg";
-import portfolio04 from "@/images/portfolio/4.jpg";
-import portfolio05 from "@/images/portfolio/5.jpg";
-import portfolio06 from "@/images/portfolio/6.jpg";
 
 export const PortfolioData = [
   {
@@ -438,9 +479,6 @@ export const PortfolioFilters = [
   { name: "marketing" },
   { name: "logos" },
 ];
-
-import portfolioD01 from "@/images/portfolio/7.jpg";
-import portfolioD02 from "@/images/portfolio/8.jpg";
 
 export const PortfolioDetailsData = {
   gallery: [{ image: portfolioD01 }, { image: portfolioD02 }],
@@ -549,10 +587,6 @@ export const ServicePostTwoData = {
   ],
 };
 
-import serviceOne01 from "@/images/home_1/6.jpg";
-import serviceOne02 from "@/images/home_1/7.jpg";
-import serviceOne03 from "@/images/home_1/8.jpg";
-
 export const ServicePostThreeData = {
   sectionContent: {
     title: "Let’s create something",
@@ -598,8 +632,6 @@ export const FunfactData = [
   },
 ];
 
-import trustClient01 from "@/images/home_1/4.jpg";
-
 export const TrustClientData = {
   image: trustClient01,
   title: "We are trusted by more than 8900 clients",
@@ -607,12 +639,6 @@ export const TrustClientData = {
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita-tion ullamco laboris nisi ut aliquip ex ea commodo.",
   url: "/about",
 };
-
-import ClientCarousel01 from "@/images/client/1.png";
-import ClientCarousel02 from "@/images/client/2.png";
-import ClientCarousel03 from "@/images/client/3.png";
-import ClientCarousel04 from "@/images/client/4.png";
-import ClientCarousel05 from "@/images/client/5.png";
 
 export const ClientCarouselData = {
   sectionContent: {
@@ -645,9 +671,6 @@ export const ClientCarouselData = {
   ],
 };
 
-import aboutOne01 from "@/images/about/1.jpg";
-import aboutOne02 from "@/images/about/2.jpg";
-
 export const AboutOneData = {
   sectionContent: {
     title: "build better website alot quicker with meipaly agency",
@@ -659,12 +682,6 @@ export const AboutOneData = {
     number: 1990,
   },
 };
-
-import team01 from "@/images/team/1.jpg";
-import team02 from "@/images/team/2.jpg";
-import team03 from "@/images/team/3.jpg";
-import team04 from "@/images/team/4.jpg";
-import team05 from "@/images/team/5.jpg";
 
 export const TeamOneData = {
   sectionContent: {
@@ -777,8 +794,6 @@ export const TeamOneData = {
   ],
 };
 
-import video01 from "@/images/about/3.jpg";
-
 export const VideoOneData = {
   sectionContent: {
     title: "Make amazing websites without touching cod",
@@ -799,10 +814,6 @@ export const SubscribeFormData = {
     subTitle: "don’t miss out our latest updates",
   },
 };
-
-import testimonial01 from "@/images/home_1/t1.jpg";
-import testimonial02 from "@/images/home_1/t2.jpg";
-import testimonial03 from "@/images/home_1/t3.jpg";
 
 export const TestimonialsOneData = {
   sectionContent: {
@@ -884,10 +895,6 @@ export const TestimonialsOneData = {
     },
   ],
 };
-
-import featureTab01 from "@/images/home_1/c1.jpg";
-import featureTab02 from "@/images/home_1/c2.jpg";
-import featureTab03 from "@/images/home_1/c3.jpg";
 
 export const FeatureTabData = {
   sectionContent: {
@@ -995,8 +1002,6 @@ export const PortfolioHomeData = {
   },
 };
 
-import video02 from "@/images/home_1/3.jpg";
-
 export const VideoTwoData = {
   sectionContent: {
     title: "Digital Experience",
@@ -1011,9 +1016,6 @@ export const VideoTwoData = {
   },
 };
 
-import aboutTwo01 from "@/images/home_1/2.jpg";
-import aboutTwo02 from "@/images/home_1/1.jpg";
-
 export const AboutTwoData = {
   sectionContent: {
     title: "We are the Best Website agency in The World",
@@ -1027,8 +1029,6 @@ export const AboutTwoData = {
   },
   gallery: [aboutTwo01, aboutTwo02],
 };
-
-import featureTwo01 from "@/images/home_1/5.jpg";
 
 export const FeatureTwoData = {
   sectionContent: {

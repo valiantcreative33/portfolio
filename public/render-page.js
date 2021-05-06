@@ -7300,7 +7300,7 @@ const CallToActionOne = ({
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/contact",
     className: `common_btn ${buttonClass}`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "Contact with us"))))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "Contact Me!"))))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CallToActionOne);
@@ -8894,6 +8894,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "NavLinks": () => (/* binding */ NavLinks),
 /* harmony export */   "SliderOneData": () => (/* binding */ SliderOneData),
 /* harmony export */   "SliderTwoData": () => (/* binding */ SliderTwoData),
+/* harmony export */   "SliderThreeData": () => (/* binding */ SliderThreeData),
 /* harmony export */   "ContactInfosBlock": () => (/* binding */ ContactInfosBlock),
 /* harmony export */   "ContactInfosList": () => (/* binding */ ContactInfosList),
 /* harmony export */   "ContactFormTitle": () => (/* binding */ ContactFormTitle),
@@ -8932,54 +8933,112 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_slider_1_2_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/images/slider/1_2.jpg */ "./src/assets/images/slider/1_2.jpg");
 /* harmony import */ var _images_slider_2_1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/images/slider/2_1.jpg */ "./src/assets/images/slider/2_1.jpg");
 /* harmony import */ var _images_slider_2_2_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/images/slider/2_2.jpg */ "./src/assets/images/slider/2_2.jpg");
-/* harmony import */ var _images_blog_1_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/images/blog/1.jpg */ "./src/assets/images/blog/1.jpg");
-/* harmony import */ var _images_blog_2_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/images/blog/2.jpg */ "./src/assets/images/blog/2.jpg");
-/* harmony import */ var _images_blog_3_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @/images/blog/3.jpg */ "./src/assets/images/blog/3.jpg");
-/* harmony import */ var _images_blog_4_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @/images/blog/4.jpg */ "./src/assets/images/blog/4.jpg");
-/* harmony import */ var _images_blog_5_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @/images/blog/5.jpg */ "./src/assets/images/blog/5.jpg");
-/* harmony import */ var _images_blog_6_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @/images/blog/6.jpg */ "./src/assets/images/blog/6.jpg");
-/* harmony import */ var _images_blog_14_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @/images/blog/14.jpg */ "./src/assets/images/blog/14.jpg");
-/* harmony import */ var _images_blog_15_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @/images/blog/15.jpg */ "./src/assets/images/blog/15.jpg");
-/* harmony import */ var _images_blog_11_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @/images/blog/11.jpg */ "./src/assets/images/blog/11.jpg");
-/* harmony import */ var _images_blog_12_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @/images/blog/12.jpg */ "./src/assets/images/blog/12.jpg");
-/* harmony import */ var _images_blog_13_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @/images/blog/13.jpg */ "./src/assets/images/blog/13.jpg");
-/* harmony import */ var _images_blog_9_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @/images/blog/9.jpg */ "./src/assets/images/blog/9.jpg");
-/* harmony import */ var _images_blog_10_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @/images/blog/10.jpg */ "./src/assets/images/blog/10.jpg");
-/* harmony import */ var _images_portfolio_1_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @/images/portfolio/1.jpg */ "./src/assets/images/portfolio/1.jpg");
-/* harmony import */ var _images_portfolio_2_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @/images/portfolio/2.jpg */ "./src/assets/images/portfolio/2.jpg");
-/* harmony import */ var _images_portfolio_3_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @/images/portfolio/3.jpg */ "./src/assets/images/portfolio/3.jpg");
-/* harmony import */ var _images_portfolio_4_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @/images/portfolio/4.jpg */ "./src/assets/images/portfolio/4.jpg");
-/* harmony import */ var _images_portfolio_5_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @/images/portfolio/5.jpg */ "./src/assets/images/portfolio/5.jpg");
-/* harmony import */ var _images_portfolio_6_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @/images/portfolio/6.jpg */ "./src/assets/images/portfolio/6.jpg");
-/* harmony import */ var _images_portfolio_7_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @/images/portfolio/7.jpg */ "./src/assets/images/portfolio/7.jpg");
-/* harmony import */ var _images_portfolio_8_jpg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @/images/portfolio/8.jpg */ "./src/assets/images/portfolio/8.jpg");
-/* harmony import */ var _images_home_1_6_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @/images/home_1/6.jpg */ "./src/assets/images/home_1/6.jpg");
-/* harmony import */ var _images_home_1_7_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @/images/home_1/7.jpg */ "./src/assets/images/home_1/7.jpg");
-/* harmony import */ var _images_home_1_8_jpg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @/images/home_1/8.jpg */ "./src/assets/images/home_1/8.jpg");
-/* harmony import */ var _images_home_1_4_jpg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @/images/home_1/4.jpg */ "./src/assets/images/home_1/4.jpg");
-/* harmony import */ var _images_client_1_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @/images/client/1.png */ "./src/assets/images/client/1.png");
-/* harmony import */ var _images_client_2_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @/images/client/2.png */ "./src/assets/images/client/2.png");
-/* harmony import */ var _images_client_3_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @/images/client/3.png */ "./src/assets/images/client/3.png");
-/* harmony import */ var _images_client_4_png__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @/images/client/4.png */ "./src/assets/images/client/4.png");
-/* harmony import */ var _images_client_5_png__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @/images/client/5.png */ "./src/assets/images/client/5.png");
-/* harmony import */ var _images_about_1_jpg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! @/images/about/1.jpg */ "./src/assets/images/about/1.jpg");
-/* harmony import */ var _images_about_2_jpg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @/images/about/2.jpg */ "./src/assets/images/about/2.jpg");
-/* harmony import */ var _images_team_1_jpg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @/images/team/1.jpg */ "./src/assets/images/team/1.jpg");
-/* harmony import */ var _images_team_2_jpg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @/images/team/2.jpg */ "./src/assets/images/team/2.jpg");
-/* harmony import */ var _images_team_3_jpg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! @/images/team/3.jpg */ "./src/assets/images/team/3.jpg");
-/* harmony import */ var _images_team_4_jpg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! @/images/team/4.jpg */ "./src/assets/images/team/4.jpg");
-/* harmony import */ var _images_team_5_jpg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! @/images/team/5.jpg */ "./src/assets/images/team/5.jpg");
-/* harmony import */ var _images_about_3_jpg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! @/images/about/3.jpg */ "./src/assets/images/about/3.jpg");
-/* harmony import */ var _images_home_1_t1_jpg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! @/images/home_1/t1.jpg */ "./src/assets/images/home_1/t1.jpg");
-/* harmony import */ var _images_home_1_t2_jpg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! @/images/home_1/t2.jpg */ "./src/assets/images/home_1/t2.jpg");
-/* harmony import */ var _images_home_1_t3_jpg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! @/images/home_1/t3.jpg */ "./src/assets/images/home_1/t3.jpg");
-/* harmony import */ var _images_home_1_c1_jpg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! @/images/home_1/c1.jpg */ "./src/assets/images/home_1/c1.jpg");
-/* harmony import */ var _images_home_1_c2_jpg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! @/images/home_1/c2.jpg */ "./src/assets/images/home_1/c2.jpg");
-/* harmony import */ var _images_home_1_c3_jpg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! @/images/home_1/c3.jpg */ "./src/assets/images/home_1/c3.jpg");
-/* harmony import */ var _images_home_1_3_jpg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! @/images/home_1/3.jpg */ "./src/assets/images/home_1/3.jpg");
-/* harmony import */ var _images_home_1_2_jpg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! @/images/home_1/2.jpg */ "./src/assets/images/home_1/2.jpg");
-/* harmony import */ var _images_home_1_1_jpg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! @/images/home_1/1.jpg */ "./src/assets/images/home_1/1.jpg");
-/* harmony import */ var _images_home_1_5_jpg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! @/images/home_1/5.jpg */ "./src/assets/images/home_1/5.jpg");
+/* harmony import */ var _images_slider_2_3_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/images/slider/2_3.jpg */ "./src/assets/images/slider/2_3.jpg");
+/* harmony import */ var _images_slider_3_1_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/images/slider/3_1.jpg */ "./src/assets/images/slider/3_1.jpg");
+/* harmony import */ var _images_slider_3_2_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @/images/slider/3_2.jpg */ "./src/assets/images/slider/3_2.jpg");
+/* harmony import */ var _images_blog_1_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @/images/blog/1.jpg */ "./src/assets/images/blog/1.jpg");
+/* harmony import */ var _images_blog_2_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @/images/blog/2.jpg */ "./src/assets/images/blog/2.jpg");
+/* harmony import */ var _images_blog_3_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @/images/blog/3.jpg */ "./src/assets/images/blog/3.jpg");
+/* harmony import */ var _images_blog_4_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @/images/blog/4.jpg */ "./src/assets/images/blog/4.jpg");
+/* harmony import */ var _images_blog_5_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @/images/blog/5.jpg */ "./src/assets/images/blog/5.jpg");
+/* harmony import */ var _images_blog_6_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @/images/blog/6.jpg */ "./src/assets/images/blog/6.jpg");
+/* harmony import */ var _images_blog_14_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @/images/blog/14.jpg */ "./src/assets/images/blog/14.jpg");
+/* harmony import */ var _images_blog_15_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @/images/blog/15.jpg */ "./src/assets/images/blog/15.jpg");
+/* harmony import */ var _images_blog_11_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @/images/blog/11.jpg */ "./src/assets/images/blog/11.jpg");
+/* harmony import */ var _images_blog_12_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @/images/blog/12.jpg */ "./src/assets/images/blog/12.jpg");
+/* harmony import */ var _images_blog_13_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @/images/blog/13.jpg */ "./src/assets/images/blog/13.jpg");
+/* harmony import */ var _images_blog_9_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @/images/blog/9.jpg */ "./src/assets/images/blog/9.jpg");
+/* harmony import */ var _images_blog_10_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @/images/blog/10.jpg */ "./src/assets/images/blog/10.jpg");
+/* harmony import */ var _images_home_1_c1_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @/images/home_1/c1.jpg */ "./src/assets/images/home_1/c1.jpg");
+/* harmony import */ var _images_home_1_c2_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @/images/home_1/c2.jpg */ "./src/assets/images/home_1/c2.jpg");
+/* harmony import */ var _images_home_1_c3_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @/images/home_1/c3.jpg */ "./src/assets/images/home_1/c3.jpg");
+/* harmony import */ var _images_portfolio_1_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @/images/portfolio/1.jpg */ "./src/assets/images/portfolio/1.jpg");
+/* harmony import */ var _images_portfolio_2_jpg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @/images/portfolio/2.jpg */ "./src/assets/images/portfolio/2.jpg");
+/* harmony import */ var _images_portfolio_3_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @/images/portfolio/3.jpg */ "./src/assets/images/portfolio/3.jpg");
+/* harmony import */ var _images_portfolio_4_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @/images/portfolio/4.jpg */ "./src/assets/images/portfolio/4.jpg");
+/* harmony import */ var _images_portfolio_5_jpg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @/images/portfolio/5.jpg */ "./src/assets/images/portfolio/5.jpg");
+/* harmony import */ var _images_portfolio_6_jpg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @/images/portfolio/6.jpg */ "./src/assets/images/portfolio/6.jpg");
+/* harmony import */ var _images_portfolio_7_jpg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @/images/portfolio/7.jpg */ "./src/assets/images/portfolio/7.jpg");
+/* harmony import */ var _images_portfolio_8_jpg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @/images/portfolio/8.jpg */ "./src/assets/images/portfolio/8.jpg");
+/* harmony import */ var _images_home_1_6_jpg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @/images/home_1/6.jpg */ "./src/assets/images/home_1/6.jpg");
+/* harmony import */ var _images_home_1_7_jpg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @/images/home_1/7.jpg */ "./src/assets/images/home_1/7.jpg");
+/* harmony import */ var _images_home_1_8_jpg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @/images/home_1/8.jpg */ "./src/assets/images/home_1/8.jpg");
+/* harmony import */ var _images_home_1_4_jpg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! @/images/home_1/4.jpg */ "./src/assets/images/home_1/4.jpg");
+/* harmony import */ var _images_client_1_png__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @/images/client/1.png */ "./src/assets/images/client/1.png");
+/* harmony import */ var _images_client_2_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @/images/client/2.png */ "./src/assets/images/client/2.png");
+/* harmony import */ var _images_client_3_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @/images/client/3.png */ "./src/assets/images/client/3.png");
+/* harmony import */ var _images_client_4_png__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! @/images/client/4.png */ "./src/assets/images/client/4.png");
+/* harmony import */ var _images_client_5_png__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! @/images/client/5.png */ "./src/assets/images/client/5.png");
+/* harmony import */ var _images_about_1_jpg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! @/images/about/1.jpg */ "./src/assets/images/about/1.jpg");
+/* harmony import */ var _images_about_2_jpg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! @/images/about/2.jpg */ "./src/assets/images/about/2.jpg");
+/* harmony import */ var _images_team_1_jpg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! @/images/team/1.jpg */ "./src/assets/images/team/1.jpg");
+/* harmony import */ var _images_team_2_jpg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! @/images/team/2.jpg */ "./src/assets/images/team/2.jpg");
+/* harmony import */ var _images_team_3_jpg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! @/images/team/3.jpg */ "./src/assets/images/team/3.jpg");
+/* harmony import */ var _images_team_4_jpg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! @/images/team/4.jpg */ "./src/assets/images/team/4.jpg");
+/* harmony import */ var _images_team_5_jpg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! @/images/team/5.jpg */ "./src/assets/images/team/5.jpg");
+/* harmony import */ var _images_about_3_jpg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! @/images/about/3.jpg */ "./src/assets/images/about/3.jpg");
+/* harmony import */ var _images_home_1_t1_jpg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! @/images/home_1/t1.jpg */ "./src/assets/images/home_1/t1.jpg");
+/* harmony import */ var _images_home_1_t2_jpg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! @/images/home_1/t2.jpg */ "./src/assets/images/home_1/t2.jpg");
+/* harmony import */ var _images_home_1_t3_jpg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! @/images/home_1/t3.jpg */ "./src/assets/images/home_1/t3.jpg");
+/* harmony import */ var _images_home_1_3_jpg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! @/images/home_1/3.jpg */ "./src/assets/images/home_1/3.jpg");
+/* harmony import */ var _images_home_1_2_jpg__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! @/images/home_1/2.jpg */ "./src/assets/images/home_1/2.jpg");
+/* harmony import */ var _images_home_1_1_jpg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! @/images/home_1/1.jpg */ "./src/assets/images/home_1/1.jpg");
+/* harmony import */ var _images_home_1_5_jpg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! @/images/home_1/5.jpg */ "./src/assets/images/home_1/5.jpg");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 const LogoImage = {
@@ -8992,56 +9051,49 @@ const NavLinks = [{
   subItems: [{
     name: "Home 01",
     url: "/"
-  } // {
-  //   name: "Home 02",
-  //   url: "/index-2",
-  // },
-  // {
-  //   name: "Home 03",
-  //   url: "/index-3",
-  // },
-  ]
+  }, {
+    name: "Home 02",
+    url: "/index-2"
+  }, {
+    name: "Home 03",
+    url: "/index-3"
+  }]
 }, {
   name: "About",
   url: "/about"
 }, {
   name: "Services",
   url: "/service",
-  subItems: [// {
-  //   name: "Services",
-  //   url: "/service",
-  // },
-  {
+  subItems: [{
+    name: "Services",
+    url: "/service"
+  }, {
     name: "Service Details",
     url: "/service-details"
   }]
 }, {
   name: "Portfolio",
   url: "/portfolio",
-  subItems: [// {
-  //   name: "Portfolio 01",
-  //   url: "/portfolio",
-  // },
-  {
+  subItems: [{
+    name: "Portfolio 01",
+    url: "/portfolio"
+  }, {
     name: "Portfolio Details",
     url: "/portfolio-details"
   }]
 }, {
   name: "Blog",
   url: "/blog",
-  subItems: [// {
-  //   name: "Blog 01",
-  //   url: "/blog",
-  // },
-  // {
-  //   name: "Blog 02",
-  //   url: "/blog-2",
-  // },
-  // {
-  //   name: "Blog 03",
-  //   url: "/blog-3",
-  // },
-  {
+  subItems: [{
+    name: "Blog 01",
+    url: "/blog"
+  }, {
+    name: "Blog 02",
+    url: "/blog-2"
+  }, {
+    name: "Blog 03",
+    url: "/blog-3"
+  }, {
     name: "Blog Details",
     url: "/blog-single"
   }]
@@ -9049,8 +9101,6 @@ const NavLinks = [{
   name: "Contact",
   url: "/contact"
 }];
-
-
 const SliderOneData = [{
   image: _images_slider_1_1_jpg__WEBPACK_IMPORTED_MODULE_2__.default,
   subTitle: "WELCOME TO VALIANT CREATIVE",
@@ -9059,19 +9109,15 @@ const SliderOneData = [{
     label: "DISCOVER MORE",
     url: "/about"
   }
-} // {
-//   image: sliderOne02,
-//   subTitle: "WELCOME TO VALIANT CREATIVE",
-//   title: "PORTFOLIO OF RUBEN MATAMOROS.",
-//   button: {
-//     label: "DISCOVER MORE",
-//     url: "/about",
-//   },
-// },
-];
-
- // import sliderTwo03 from "@/images/slider/2_3.jpg";
-
+}, {
+  image: _images_slider_1_2_jpg__WEBPACK_IMPORTED_MODULE_3__.default,
+  subTitle: "WELCOME TO VALIANT CREATIVE",
+  title: "PORTFOLIO OF RUBEN MATAMOROS.",
+  button: {
+    label: "DISCOVER MORE",
+    url: "/about"
+  }
+}];
 const SliderTwoData = [{
   image: _images_slider_2_1_jpg__WEBPACK_IMPORTED_MODULE_4__.default,
   subTitle: "WELCOME TO VALIANT CREATIVE",
@@ -9088,38 +9134,32 @@ const SliderTwoData = [{
     label: "DISCOVER MORE",
     url: "/about"
   }
-} //   {
-//     image: sliderTwo03,
-//     subTitle: "WELCOME TO VALIANT CREATIVE",
-//     title: "PORTFOLIO OF RUBEN MATAMOROS.",
-//     button: {
-//       label: "DISCOVER MORE",
-//       url: "/about",
-//     },
-//   },
-// ];
-// import sliderThree01 from "@/images/slider/3_1.jpg";
-// import sliderThree02 from "@/images/slider/3_2.jpg";
-// export const SliderThreeData = [
-//   {
-//     image: sliderThree01,
-//     subTitle: "WELCOME TO MEIPALY AGENCY",
-//     title: "SMART WEB\n DESIGN AGENCY.",
-//     button: {
-//       label: "DISCOVER MORE",
-//       url: "/about",
-//     },
-//   },
-//   {
-//     image: sliderThree02,
-//     subTitle: "WELCOME TO MEIPALY AGENCY",
-//     title: "SMART WEB\n DESIGN AGENCY.",
-//     button: {
-//       label: "DISCOVER MORE",
-//       url: "/about",
-//     },
-//   },
-];
+}, {
+  image: _images_slider_2_3_jpg__WEBPACK_IMPORTED_MODULE_6__.default,
+  subTitle: "WELCOME TO VALIANT CREATIVE",
+  title: "PORTFOLIO OF RUBEN MATAMOROS.",
+  button: {
+    label: "DISCOVER MORE",
+    url: "/about"
+  }
+}];
+const SliderThreeData = [{
+  image: _images_slider_3_1_jpg__WEBPACK_IMPORTED_MODULE_7__.default,
+  subTitle: "WELCOME TO MEIPALY AGENCY",
+  title: "SMART WEB\n DESIGN AGENCY.",
+  button: {
+    label: "DISCOVER MORE",
+    url: "/about"
+  }
+}, {
+  image: _images_slider_3_2_jpg__WEBPACK_IMPORTED_MODULE_8__.default,
+  subTitle: "WELCOME TO MEIPALY AGENCY",
+  title: "SMART WEB\n DESIGN AGENCY.",
+  button: {
+    label: "DISCOVER MORE",
+    url: "/about"
+  }
+}];
 const ContactInfosBlock = {
   subTitle: "our offices",
   title: "offices near you",
@@ -9167,150 +9207,131 @@ const ContactFormTitle = {
   title: "write us a message",
   description: "We are committed to providing our customers with exceptional service while \n      offering our employees the best training. "
 };
-
-
-
-
-
-
 const BlogData = [{
   title: "basic rules of running web agency business",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_1_jpg__WEBPACK_IMPORTED_MODULE_6__.default
+  image: _images_blog_1_jpg__WEBPACK_IMPORTED_MODULE_9__.default
 }, {
   title: "Become the best sale marketer",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_2_jpg__WEBPACK_IMPORTED_MODULE_7__.default
+  image: _images_blog_2_jpg__WEBPACK_IMPORTED_MODULE_10__.default
 }, {
   title: "Introducing latest mopaly features",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_3_jpg__WEBPACK_IMPORTED_MODULE_8__.default
+  image: _images_blog_3_jpg__WEBPACK_IMPORTED_MODULE_11__.default
 }, {
   title: "a deep understanding of our audience",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_4_jpg__WEBPACK_IMPORTED_MODULE_9__.default
+  image: _images_blog_4_jpg__WEBPACK_IMPORTED_MODULE_12__.default
 }, {
   title: "We build and activate brands insight",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_5_jpg__WEBPACK_IMPORTED_MODULE_10__.default
+  image: _images_blog_5_jpg__WEBPACK_IMPORTED_MODULE_13__.default
 }, {
   title: "experiences that connect with people",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_6_jpg__WEBPACK_IMPORTED_MODULE_11__.default
+  image: _images_blog_6_jpg__WEBPACK_IMPORTED_MODULE_14__.default
 }];
-
-
 const BlogTwoData = [{
   title: "Dynamically procrastinate unique vortals with global best practices.",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_14_jpg__WEBPACK_IMPORTED_MODULE_12__.default
+  image: _images_blog_14_jpg__WEBPACK_IMPORTED_MODULE_15__.default
 }, {
   title: "Become the best sale marketer",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_2_jpg__WEBPACK_IMPORTED_MODULE_7__.default
+  image: _images_blog_2_jpg__WEBPACK_IMPORTED_MODULE_10__.default
 }, {
   title: "Introducing latest mopaly features",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_3_jpg__WEBPACK_IMPORTED_MODULE_8__.default
+  image: _images_blog_3_jpg__WEBPACK_IMPORTED_MODULE_11__.default
 }, {
   title: "a deep understanding of our audience",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_4_jpg__WEBPACK_IMPORTED_MODULE_9__.default
+  image: _images_blog_4_jpg__WEBPACK_IMPORTED_MODULE_12__.default
 }, {
   title: "We build and activate brands insight",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_5_jpg__WEBPACK_IMPORTED_MODULE_10__.default
+  image: _images_blog_5_jpg__WEBPACK_IMPORTED_MODULE_13__.default
 }, {
   title: "Holisticly conceptualize backend scenarios via accurate technologies.",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_15_jpg__WEBPACK_IMPORTED_MODULE_13__.default
+  image: _images_blog_15_jpg__WEBPACK_IMPORTED_MODULE_16__.default
 }, {
   title: "experiences that connect with people",
   date: "20 nov",
   url: "/blog-single",
-  image: _images_blog_6_jpg__WEBPACK_IMPORTED_MODULE_11__.default
+  image: _images_blog_6_jpg__WEBPACK_IMPORTED_MODULE_14__.default
 }];
 const BlogHomeSection = {
   subTitle: "our news & articles",
   title: "latest blog posts",
   text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
 };
-
-
-
 const BlogSidebarPost = [{
   title: "basic rules of running web agency",
-  image: _images_blog_11_jpg__WEBPACK_IMPORTED_MODULE_14__.default,
+  image: _images_blog_11_jpg__WEBPACK_IMPORTED_MODULE_17__.default,
   url: "/blog-single"
 }, {
   title: "basic rules of running web agency",
-  image: _images_blog_12_jpg__WEBPACK_IMPORTED_MODULE_15__.default,
+  image: _images_blog_12_jpg__WEBPACK_IMPORTED_MODULE_18__.default,
   url: "/blog-single"
 }, {
   title: "basic rules of running web agency",
-  image: _images_blog_13_jpg__WEBPACK_IMPORTED_MODULE_16__.default,
+  image: _images_blog_13_jpg__WEBPACK_IMPORTED_MODULE_19__.default,
   url: "/blog-single"
 }];
-
-
 const BlogComments = [{
-  image: _images_blog_9_jpg__WEBPACK_IMPORTED_MODULE_17__.default,
+  image: _images_blog_9_jpg__WEBPACK_IMPORTED_MODULE_20__.default,
   name: "David Martin",
   data: "20 Nov, 2018 - 4:00 pm",
   content: "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet."
 }, {
-  image: _images_blog_10_jpg__WEBPACK_IMPORTED_MODULE_18__.default,
+  image: _images_blog_10_jpg__WEBPACK_IMPORTED_MODULE_21__.default,
   name: "Jessica Brown",
   data: "20 Nov, 2018 - 4:00 pm",
   content: "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet."
 }];
-
-
-
-
-
-
 const PortfolioData = [{
   title: "Design Styles",
   categories: ["all", "graphic"],
-  image: _images_portfolio_1_jpg__WEBPACK_IMPORTED_MODULE_19__.default,
+  image: _images_portfolio_1_jpg__WEBPACK_IMPORTED_MODULE_25__.default,
   url: "/portfolio-details"
 }, {
   title: "Design Styles",
   categories: ["all", "graphic"],
-  image: _images_portfolio_2_jpg__WEBPACK_IMPORTED_MODULE_20__.default,
+  image: _images_portfolio_2_jpg__WEBPACK_IMPORTED_MODULE_26__.default,
   url: "/portfolio-details"
 }, {
   title: "Design Styles",
   categories: ["all", "graphic"],
-  image: _images_portfolio_3_jpg__WEBPACK_IMPORTED_MODULE_21__.default,
+  image: _images_portfolio_3_jpg__WEBPACK_IMPORTED_MODULE_27__.default,
   url: "/portfolio-details"
 }, {
   title: "Design Styles",
   categories: ["all", "graphic"],
-  image: _images_portfolio_4_jpg__WEBPACK_IMPORTED_MODULE_22__.default,
+  image: _images_portfolio_4_jpg__WEBPACK_IMPORTED_MODULE_28__.default,
   url: "/portfolio-details"
 }, {
   title: "Design Styles",
   categories: ["all", "graphic"],
-  image: _images_portfolio_5_jpg__WEBPACK_IMPORTED_MODULE_23__.default,
+  image: _images_portfolio_5_jpg__WEBPACK_IMPORTED_MODULE_29__.default,
   url: "/portfolio-details"
 }, {
   title: "Design Styles",
   categories: ["all", "graphic"],
-  image: _images_portfolio_6_jpg__WEBPACK_IMPORTED_MODULE_24__.default,
+  image: _images_portfolio_6_jpg__WEBPACK_IMPORTED_MODULE_30__.default,
   url: "/portfolio-details"
 }];
 const PortfolioFilters = [{
@@ -9324,13 +9345,11 @@ const PortfolioFilters = [{
 }, {
   name: "logos"
 }];
-
-
 const PortfolioDetailsData = {
   gallery: [{
-    image: _images_portfolio_7_jpg__WEBPACK_IMPORTED_MODULE_25__.default
+    image: _images_portfolio_7_jpg__WEBPACK_IMPORTED_MODULE_31__.default
   }, {
-    image: _images_portfolio_8_jpg__WEBPACK_IMPORTED_MODULE_26__.default
+    image: _images_portfolio_8_jpg__WEBPACK_IMPORTED_MODULE_32__.default
   }],
   title: "Design Styles",
   text: " Tincidunt elit magnis nulla facilisis sagittis sapien nunc amet ultrices dolores sit ipsum velit purus aliquet massa fringilla leo orci. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci dolors sit amet elit amet. ",
@@ -9408,9 +9427,6 @@ const ServicePostTwoData = {
     url: "/service-details"
   }]
 };
-
-
-
 const ServicePostThreeData = {
   sectionContent: {
     title: "Let’s create something",
@@ -9419,15 +9435,15 @@ const ServicePostThreeData = {
   },
   posts: [{
     title: "web development",
-    image: _images_home_1_6_jpg__WEBPACK_IMPORTED_MODULE_27__.default,
+    image: _images_home_1_6_jpg__WEBPACK_IMPORTED_MODULE_33__.default,
     url: "/service-details"
   }, {
     title: "digital marketing",
-    image: _images_home_1_7_jpg__WEBPACK_IMPORTED_MODULE_28__.default,
+    image: _images_home_1_7_jpg__WEBPACK_IMPORTED_MODULE_34__.default,
     url: "/service-details"
   }, {
     title: "product branding",
-    image: _images_home_1_8_jpg__WEBPACK_IMPORTED_MODULE_29__.default,
+    image: _images_home_1_8_jpg__WEBPACK_IMPORTED_MODULE_35__.default,
     url: "/service-details"
   }]
 };
@@ -9444,18 +9460,12 @@ const FunfactData = [{
   title: "Happy Clients",
   countNumber: 774
 }];
-
 const TrustClientData = {
-  image: _images_home_1_4_jpg__WEBPACK_IMPORTED_MODULE_30__.default,
+  image: _images_home_1_4_jpg__WEBPACK_IMPORTED_MODULE_36__.default,
   title: "We are trusted by more than 8900 clients",
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita-tion ullamco laboris nisi ut aliquip ex ea commodo.",
   url: "/about"
 };
-
-
-
-
-
 const ClientCarouselData = {
   sectionContent: {
     title: "they trust us",
@@ -9464,39 +9474,32 @@ const ClientCarouselData = {
   },
   items: [{
     url: "#",
-    image: _images_client_1_png__WEBPACK_IMPORTED_MODULE_31__.default
+    image: _images_client_1_png__WEBPACK_IMPORTED_MODULE_37__.default
   }, {
     url: "#",
-    image: _images_client_2_png__WEBPACK_IMPORTED_MODULE_32__.default
+    image: _images_client_2_png__WEBPACK_IMPORTED_MODULE_38__.default
   }, {
     url: "#",
-    image: _images_client_3_png__WEBPACK_IMPORTED_MODULE_33__.default
+    image: _images_client_3_png__WEBPACK_IMPORTED_MODULE_39__.default
   }, {
     url: "#",
-    image: _images_client_4_png__WEBPACK_IMPORTED_MODULE_34__.default
+    image: _images_client_4_png__WEBPACK_IMPORTED_MODULE_40__.default
   }, {
     url: "#",
-    image: _images_client_5_png__WEBPACK_IMPORTED_MODULE_35__.default
+    image: _images_client_5_png__WEBPACK_IMPORTED_MODULE_41__.default
   }]
 };
-
-
 const AboutOneData = {
   sectionContent: {
     title: "build better website alot quicker with meipaly agency",
     subTitle: "get to know us"
   },
-  gallery: [_images_about_1_jpg__WEBPACK_IMPORTED_MODULE_36__.default, _images_about_2_jpg__WEBPACK_IMPORTED_MODULE_37__.default],
+  gallery: [_images_about_1_jpg__WEBPACK_IMPORTED_MODULE_42__.default, _images_about_2_jpg__WEBPACK_IMPORTED_MODULE_43__.default],
   counter: {
     title: "Company Started",
     number: 1990
   }
 };
-
-
-
-
-
 const TeamOneData = {
   sectionContent: {
     title: "expert people",
@@ -9504,7 +9507,7 @@ const TeamOneData = {
     text: "We are committed to providing our customers with exceptional service \n while offering our employees the best training."
   },
   posts: [{
-    image: _images_team_1_jpg__WEBPACK_IMPORTED_MODULE_38__.default,
+    image: _images_team_1_jpg__WEBPACK_IMPORTED_MODULE_44__.default,
     name: "Herman Fisher",
     designation: "General Manager",
     url: "#",
@@ -9519,7 +9522,7 @@ const TeamOneData = {
       url: "#"
     }]
   }, {
-    image: _images_team_2_jpg__WEBPACK_IMPORTED_MODULE_39__.default,
+    image: _images_team_2_jpg__WEBPACK_IMPORTED_MODULE_45__.default,
     name: "Charlie Kennedy",
     designation: "Brand Designer",
     url: "",
@@ -9534,7 +9537,7 @@ const TeamOneData = {
       url: "#"
     }]
   }, {
-    image: _images_team_3_jpg__WEBPACK_IMPORTED_MODULE_40__.default,
+    image: _images_team_3_jpg__WEBPACK_IMPORTED_MODULE_46__.default,
     name: "Helena Adkins",
     designation: "Seinor Designer",
     url: "#",
@@ -9549,7 +9552,7 @@ const TeamOneData = {
       url: "#"
     }]
   }, {
-    image: _images_team_4_jpg__WEBPACK_IMPORTED_MODULE_41__.default,
+    image: _images_team_4_jpg__WEBPACK_IMPORTED_MODULE_47__.default,
     name: "Virginia Farmer",
     designation: "Marketing Manager",
     url: "#",
@@ -9564,7 +9567,7 @@ const TeamOneData = {
       url: "#"
     }]
   }, {
-    image: _images_team_5_jpg__WEBPACK_IMPORTED_MODULE_42__.default,
+    image: _images_team_5_jpg__WEBPACK_IMPORTED_MODULE_48__.default,
     name: "Philip Hansen",
     designation: "Co Founder",
     url: "#",
@@ -9580,7 +9583,6 @@ const TeamOneData = {
     }]
   }]
 };
-
 const VideoOneData = {
   sectionContent: {
     title: "Make amazing websites without touching cod",
@@ -9588,7 +9590,7 @@ const VideoOneData = {
     text: "Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus aliquet."
   },
   video: {
-    image: _images_about_3_jpg__WEBPACK_IMPORTED_MODULE_43__.default,
+    image: _images_about_3_jpg__WEBPACK_IMPORTED_MODULE_49__.default,
     ID: "y2Eqx6ys1hQ",
     title: "Watch Video"
   }
@@ -9599,9 +9601,6 @@ const SubscribeFormData = {
     subTitle: "don’t miss out our latest updates"
   }
 };
-
-
-
 const TestimonialsOneData = {
   sectionContent: {
     subTitle: "our testimonials",
@@ -9610,62 +9609,59 @@ const TestimonialsOneData = {
   posts: [{
     name: "Cecilia Colon",
     designation: "Director",
-    image: _images_home_1_t1_jpg__WEBPACK_IMPORTED_MODULE_44__.default,
+    image: _images_home_1_t1_jpg__WEBPACK_IMPORTED_MODULE_50__.default,
     content: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
     date: "25 nov, 2018"
   }, {
     name: "Chase Hanson",
     designation: "CO Founder",
-    image: _images_home_1_t2_jpg__WEBPACK_IMPORTED_MODULE_45__.default,
+    image: _images_home_1_t2_jpg__WEBPACK_IMPORTED_MODULE_51__.default,
     content: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
     date: "25 nov, 2018"
   }, {
     name: "Mittie Flores",
     designation: "Manager",
-    image: _images_home_1_t3_jpg__WEBPACK_IMPORTED_MODULE_46__.default,
+    image: _images_home_1_t3_jpg__WEBPACK_IMPORTED_MODULE_52__.default,
     content: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
     date: "25 nov, 2018"
   }, {
     name: "Carrie Sims",
     designation: "Director",
-    image: _images_home_1_t1_jpg__WEBPACK_IMPORTED_MODULE_44__.default,
+    image: _images_home_1_t1_jpg__WEBPACK_IMPORTED_MODULE_50__.default,
     content: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
     date: "25 nov, 2018"
   }, {
     name: "Anne Stone",
     designation: "CO Founder",
-    image: _images_home_1_t2_jpg__WEBPACK_IMPORTED_MODULE_45__.default,
+    image: _images_home_1_t2_jpg__WEBPACK_IMPORTED_MODULE_51__.default,
     content: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
     date: "25 nov, 2018"
   }, {
     name: "Hunter Brewer",
     designation: "Manager",
-    image: _images_home_1_t3_jpg__WEBPACK_IMPORTED_MODULE_46__.default,
+    image: _images_home_1_t3_jpg__WEBPACK_IMPORTED_MODULE_52__.default,
     content: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
     date: "25 nov, 2018"
   }, {
     name: "Carrie Sims",
     designation: "Director",
-    image: _images_home_1_t1_jpg__WEBPACK_IMPORTED_MODULE_44__.default,
+    image: _images_home_1_t1_jpg__WEBPACK_IMPORTED_MODULE_50__.default,
     content: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
     date: "25 nov, 2018"
   }, {
     name: "Anne Stone",
     designation: "CO Founder",
-    image: _images_home_1_t2_jpg__WEBPACK_IMPORTED_MODULE_45__.default,
+    image: _images_home_1_t2_jpg__WEBPACK_IMPORTED_MODULE_51__.default,
     content: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
     date: "25 nov, 2018"
   }, {
     name: "Hunter Brewer",
     designation: "Manager",
-    image: _images_home_1_t3_jpg__WEBPACK_IMPORTED_MODULE_46__.default,
+    image: _images_home_1_t3_jpg__WEBPACK_IMPORTED_MODULE_52__.default,
     content: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
     date: "25 nov, 2018"
   }]
 };
-
-
-
 const FeatureTabData = {
   sectionContent: {
     title: "why choose us",
@@ -9675,7 +9671,7 @@ const FeatureTabData = {
   posts: [{
     title: "Latest technology",
     content: "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
-    image: _images_home_1_c1_jpg__WEBPACK_IMPORTED_MODULE_47__.default,
+    image: _images_home_1_c1_jpg__WEBPACK_IMPORTED_MODULE_22__.default,
     lists: [{
       item: "Self-contained, state-of-the-art time clock"
     }, {
@@ -9692,7 +9688,7 @@ const FeatureTabData = {
   }, {
     title: "Awesome Support",
     content: "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
-    image: _images_home_1_c2_jpg__WEBPACK_IMPORTED_MODULE_48__.default,
+    image: _images_home_1_c2_jpg__WEBPACK_IMPORTED_MODULE_23__.default,
     lists: [{
       item: "Self-contained, state-of-the-art time clock"
     }, {
@@ -9709,7 +9705,7 @@ const FeatureTabData = {
   }, {
     title: "1 Click demo install",
     content: "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
-    image: _images_home_1_c3_jpg__WEBPACK_IMPORTED_MODULE_49__.default,
+    image: _images_home_1_c3_jpg__WEBPACK_IMPORTED_MODULE_24__.default,
     lists: [{
       item: "Self-contained, state-of-the-art time clock"
     }, {
@@ -9738,7 +9734,6 @@ const PortfolioHomeData = {
     text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
   }
 };
-
 const VideoTwoData = {
   sectionContent: {
     title: "Digital Experience",
@@ -9748,11 +9743,9 @@ const VideoTwoData = {
   video: {
     title: "Watch Video",
     ID: "y2Eqx6ys1hQ",
-    image: _images_home_1_3_jpg__WEBPACK_IMPORTED_MODULE_50__.default
+    image: _images_home_1_3_jpg__WEBPACK_IMPORTED_MODULE_53__.default
   }
 };
-
-
 const AboutTwoData = {
   sectionContent: {
     title: "We are the Best Website agency in The World",
@@ -9763,9 +9756,8 @@ const AboutTwoData = {
     label: "Learn More",
     url: "#"
   },
-  gallery: [_images_home_1_2_jpg__WEBPACK_IMPORTED_MODULE_51__.default, _images_home_1_1_jpg__WEBPACK_IMPORTED_MODULE_52__.default]
+  gallery: [_images_home_1_2_jpg__WEBPACK_IMPORTED_MODULE_54__.default, _images_home_1_1_jpg__WEBPACK_IMPORTED_MODULE_55__.default]
 };
-
 const FeatureTwoData = {
   sectionContent: {
     title: "real experience",
@@ -9784,7 +9776,7 @@ const FeatureTwoData = {
   }],
   image: {
     text: "Total design freedom \n for everyone.",
-    path: _images_home_1_5_jpg__WEBPACK_IMPORTED_MODULE_53__.default
+    path: _images_home_1_5_jpg__WEBPACK_IMPORTED_MODULE_56__.default
   }
 };
 const CallToActionTwoData = [{
@@ -9817,7 +9809,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const NotFoundPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__.default, {
-  title: "404: Not found"
+  title: "404: Not Found"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "404: Not Found"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "You just hit a route that doesn't exist... the sadness."));
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NotFoundPage);
@@ -60074,6 +60066,51 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/2_2-626888cd5cd63a466af482b61f80bbc8.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/images/slider/2_3.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/images/slider/2_3.jpg ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/2_3-626888cd5cd63a466af482b61f80bbc8.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/images/slider/3_1.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/images/slider/3_1.jpg ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/3_1-626888cd5cd63a466af482b61f80bbc8.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/images/slider/3_2.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/images/slider/3_2.jpg ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/3_2-626888cd5cd63a466af482b61f80bbc8.jpg");
 
 /***/ }),
 

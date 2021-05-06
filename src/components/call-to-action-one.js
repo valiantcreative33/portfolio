@@ -11,7 +11,7 @@ const CallToActionOne = ({ extraClassName, buttonClass }) => {
           </div>
           <div className="col-lg-3  col-sm-4 col-md-3 text-right">
             <Link to="/contact" className={`common_btn ${buttonClass}`}>
-              <span>Contact with us</span>
+              <span>Contact Me!</span>
             </Link>
           </div>
         </div>
